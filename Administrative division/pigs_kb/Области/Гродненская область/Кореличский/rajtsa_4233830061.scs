@@ -1,0 +1,23 @@
+concept_situation -> 
+[*rajtsa_4233830061=> nrel_code_soato: number_4233830061;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> rajtsa_4233830061;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_agrogorodok -> rajtsa_4233830061;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242992734">http://www.opеnstrееtmap.org/nodе/242992734</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*rajtsa_4233830061 <= nrel_terrain_object_location: ..position9179;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242992734">http://www.opеnstrееtmap.org/nodе/242992734</a>] (* => nrel_format: format_html;; *);;
+*);;
+rajtsa_4233830061<- concept_mapped_point;;
+rajtsa_4233830061<- concept_terrain_object;;
+rajtsa_4233830061<- concept_mapped_object;;

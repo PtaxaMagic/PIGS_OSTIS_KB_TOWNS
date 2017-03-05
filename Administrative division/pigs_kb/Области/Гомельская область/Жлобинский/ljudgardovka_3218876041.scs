@@ -1,0 +1,19 @@
+concept_situation -> 
+[*ljudgardovka_3218876041=> nrel_code_soato: number_3218876041;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> ljudgardovka_3218876041;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> ljudgardovka_3218876041;;*] 
+;;
+concept_situation -> 
+[*ljudgardovka_3218876041 <= nrel_terrain_object_location: ..position6052;;*] 
+;;
+ljudgardovka_3218876041<- concept_mapped_point;;
+ljudgardovka_3218876041<- concept_terrain_object;;
+ljudgardovka_3218876041<- concept_mapped_object;;

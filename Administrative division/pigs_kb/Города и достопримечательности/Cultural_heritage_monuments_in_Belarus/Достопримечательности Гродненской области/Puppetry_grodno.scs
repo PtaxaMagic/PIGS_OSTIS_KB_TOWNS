@@ -1,0 +1,41 @@
+Puppetry_grodno	
+=> nrel_main_idtf:[Театр кукол в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[Puppet Theatre in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Puppetry_grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [В феврале 1940 года в Гродно гастролировал Центральный театр кукол С. Образцова. Здесь же после оккупации Польши оказались Владислав Ярема, его супруга Стефания и созданная ими труппа театра кукол. При поддержке С. Образцова 2 февраля 1940 года был открыт Гродненский государственный театр кукол под руководством В. Яремы – первый профессиональный кукольный коллектив в городе. ];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1940;
+
+=> nrel_source:[<a href = "http://www.grodnolyalka.by/pages/about-theatre/">http://www.grodnolyalka.by/pages/about-theatre/</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:grodno_4401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Театр Тизенгауза"];(._;>;);];;
+
+rrel_cipher_412G000012 => nrel_main_idtf:[412Г000012'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000012 : Puppetry_grodno;;
+	

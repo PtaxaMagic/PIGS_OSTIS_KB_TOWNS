@@ -1,0 +1,51 @@
+concept_situation -> 
+[*vetrino_2238553000=> nrel_code_soato: number_2238553000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*vetrino_2238553000 => nrel_population: ..time_value_population11686;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population11686
+=> nrel_main_idtf: [2900 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_2900;;
+-> rrel_thousands: number_2;;
+*);;
+concept_situation -> 
+[*vetrino_2238553000 => nrel_population: ..time_value_population11687;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979069">http://www.opеnstrееtmap.org/nodе/242979069</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population11687
+=> nrel_main_idtf: [2282 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_2282;;
+-> rrel_thousands: number_2;;
+*);;
+concept_situation -> 
+[*concept_locality -> vetrino_2238553000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> vetrino_2238553000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979069">http://www.opеnstrееtmap.org/nodе/242979069</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*vetrino_2238553000 <= nrel_terrain_object_location: ..position5843;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979069">http://www.opеnstrееtmap.org/nodе/242979069</a>] (* => nrel_format: format_html;; *);;
+*);;
+vetrino_2238553000<- concept_mapped_point;;
+vetrino_2238553000<- concept_terrain_object;;
+vetrino_2238553000<- concept_mapped_object;;

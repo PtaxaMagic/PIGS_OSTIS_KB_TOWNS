@@ -1,0 +1,28 @@
+Chapel_burial_vault_of_Svyatopolk_Mirsky_family
+=> nrel_main_idtf:[Часовня семьи Святополк-Мирских](* <- lang_ru;;*);
+=> nrel_main_idtf:[Chapel of Sviatopolk-Mirski family ](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Chapel_burial_vault_of_Svyatopolk_Mirsky_family.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Chapel-burial-vault_of_Svyatopolk-Mirsky_family,_Mir,_Belarus">https://commons.wikimedia.org/wiki/Category:Chapel-burial-vault_of_Svyatopolk-Mirsky_family,_Mir,_Belarus</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: mir_4233557000;;*);
+
+
+=> nrel_osm_query: [way["name"="Часовня-усыпальница Святополк-Мирских"];(._;>;);];;
+
+rrel_cipher_412G000318 => nrel_main_idtf:[412Г000318'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000318 : Chapel_burial_vault_of_Svyatopolk_Mirsky_family;;

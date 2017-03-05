@@ -1,0 +1,41 @@
+Church_of_Saints_Peter_and_Paul_in_Iuje
+=> nrel_main_idtf:[Церковь святых Петра и Павла в Ивье](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saints Peter and Paul in Iuje](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_Saints_Peter_and_Paul_in_Iuje.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [католический храм в городе Ивье, Белоруссия. Храм относится к Гродненской епархии. Памятник архитектуры в стиле барокко, построен на месте более древнего храма XV века];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1787;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D1%8B%D1%85_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_%D0%B8_%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0_(%D0%98%D0%B2%D1%8C%D0%B5)">https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D1%8B%D1%85_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_%D0%B8_%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0_(%D0%98%D0%B2%D1%8C%D0%B5)</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:ive_4229813061;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костел святых Апостолов Петра и Павла"]["addr:city"="Ивье"];(._;>;);];;
+
+rrel_cipher_412G000286 => nrel_main_idtf:[412Г000286'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000286 : Church_of_Saints_Peter_and_Paul_in_Iuje;;

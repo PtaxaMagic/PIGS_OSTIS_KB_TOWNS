@@ -1,0 +1,42 @@
+building_church_of_holy_trinity_in_kosava
+=> nrel_main_idtf:[Костел Святой Троицы](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Holy Trinity in Kosava](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/holy_trinity.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Административно относится к золотогорскому деканату Минско-Могилёвской архиепархии. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_George_in_Vialikija_Kruhovi%C4%8Dy">https://commons.wikimedia.org/wiki/Category:Church_of_Saint_George_in_Vialikija_Kruhovi%C4%8Dy</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight: kossovo_1234510000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Коссово"]["addr:region"="Брестская область"];];;
+
+rrel_cipher_113G000309 => nrel_main_idtf:[113Г000309'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000309 :building_church_of_holy_trinity_in_kosava;;

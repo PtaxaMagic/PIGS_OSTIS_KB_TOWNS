@@ -1,0 +1,41 @@
+Church_of_Saint_John_the_Baptist_in_Halshany
+=> nrel_main_idtf:[Церковь Святого Иоанна Крестителя в Гольшанах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saint John the Baptist in Halšany](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_Saint_John_the_Baptist_in_Halshany.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [католический храм в агрогородке Гольшаны. Относится к Ошмянскому деканату Гродненского диоцеза. Памятник архитектуры в стиле барокко, полностью перестроен в 1770-х годах. Построен как монастырская церковь монастыря францисканцев, поэтому также известен как костёл францисканцев.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1618;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%98%D0%BE%D0%B0%D0%BD%D0%BD%D0%B0_%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_(%D0%93%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D0%BD%D1%8B)">https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%98%D0%BE%D0%B0%D0%BD%D0%BD%D0%B0_%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_(%D0%93%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D0%BD%D1%8B)</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:golshany_4249808011;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костел св. Иоанна Крестителя (1777)"]["addr:city"="Гольшаны"];(._;>;);];;
+
+rrel_cipher_412G000063 => nrel_main_idtf:[412Г000063'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000063 : Church_of_Saint_John_the_Baptist_in_Halshany;;

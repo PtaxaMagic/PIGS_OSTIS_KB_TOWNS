@@ -1,0 +1,40 @@
+
+gymnasium_kamianec
+=> nrel_main_idtf:[Бывшая Польская школа, Каменец](* <- lang_ru;;*);
+=> nrel_main_idtf:[Kamieniec Gymnasium](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/gymnasium.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Здание бывшей польской школы в г. Каменце. Первое упоминание про школу относится к 1926 г., сдано в эксплуатацию 22 июля 1930 г.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Kamieniec_Gymnasium">https://commons.wikimedia.org/wiki/Category:Kamieniec_Gymnasium</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshoj_kamenets_6230840006;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Гимназия"]["building"="school"]["addr:housenumber"="1"];(._;>;);];;
+
+rrel_cipher_113G000322 => nrel_main_idtf:[113Г000322'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000322 : gymnasium_kamianec;;

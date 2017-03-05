@@ -1,0 +1,40 @@
+st_Basils_Cathedral
+=> nrel_main_idtf:[Покровский собор в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[St. Basil's Cathedral in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/st_Basils_Cathedral.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [кафедральный собор Гродненской и Волковысской епархии Белорусской православной церкви, расположенный в Гродно на ул. Э. Ожешко, 23. С художественной точки зрения, храм отличается оформлением входных порталов и окон и некоторыми элементами внешней отделки, которыми и было достигнуто определённое соответствие стилю.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1904;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)">https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight: grodno_4401000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Свято-Покровский кафедральный собор (1904-1905)"];(._;>;);];;
+
+rrel_cipher_412G000005 => nrel_main_idtf:[ 412Г000005'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000005 : st_Basils_Cathedral;;

@@ -1,0 +1,54 @@
+concept_situation -> 
+[*chechersk_3256501000=> nrel_code_soato: number_3256501000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*chechersk_3256501000 => nrel_population: ..time_value_population9796;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population9796
+=> nrel_main_idtf: [7700 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_7700;;
+-> rrel_thousands: number_7;;
+*);;
+concept_situation -> 
+[*chechersk_3256501000 => nrel_population: ..time_value_population9797;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978992">http://www.opеnstrееtmap.org/nodе/242978992</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population9797
+=> nrel_main_idtf: [8086 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_8086;;
+-> rrel_thousands: number_8;;
+*);;
+concept_situation -> 
+[*concept_locality -> chechersk_3256501000;;*] 
+(* 
+=> nrel_start_time: time_point_1159;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> chechersk_3256501000;;*] 
+(* 
+=> nrel_start_time: time_point_1159;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978992">http://www.opеnstrееtmap.org/nodе/242978992</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*chechersk_3256501000 <= nrel_terrain_object_location: ..position4898;;*] 
+(* 
+=> nrel_start_time: time_point_1159;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978992">http://www.opеnstrееtmap.org/nodе/242978992</a>] (* => nrel_format: format_html;; *);;
+*);;
+chechersk_3256501000<- concept_mapped_point;;
+chechersk_3256501000<- concept_terrain_object;;
+chechersk_3256501000<- concept_mapped_object;;

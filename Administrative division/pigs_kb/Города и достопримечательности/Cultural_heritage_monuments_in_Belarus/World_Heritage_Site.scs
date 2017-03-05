@@ -1,0 +1,24 @@
+World_Heritage_Site
+=> nrel_main_idtf:[Всемирное наследие ЮНЕСКО](* <- lang_ru;;*);
+=> nrel_main_idtf:[World Heritage Site](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://World_Heritage_Site.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [природные или созданные человеком объекты, приоритетными задачами по отношению к которым, по мнению ЮНЕСКО, являются их сохранение и популяризация в силу особой культурной, исторической или экологической значимости.];;*);; 
+                         *);;

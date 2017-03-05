@@ -1,0 +1,38 @@
+
+
+tower_kamianec
+=> nrel_main_idtf:[Каменецкая башня](* <- lang_ru;;*);
+=> nrel_main_idtf:[Tower Kamianec](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/tower.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [В городе Каменец Брестской области находится уникальный памятник архитектуры и оборонительного зодчества второй половины XIII века – Каменецкая башня (Каменецкий столп, Каменецкая вежа). ];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Tower_of_Kamianiec">https://commons.wikimedia.org/wiki/Category:Tower_of_Kamianiec</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshoj_kamenets_6230840006 ;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Каменецкая башня"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list ->  tower_kamianec;;

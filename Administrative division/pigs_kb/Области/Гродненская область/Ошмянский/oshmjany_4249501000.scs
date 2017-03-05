@@ -1,0 +1,54 @@
+concept_situation -> 
+[*oshmjany_4249501000=> nrel_code_soato: number_4249501000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*oshmjany_4249501000 => nrel_population: ..time_value_population18634;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population18634
+=> nrel_main_idtf: [15100 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_15100;;
+-> rrel_thousands: number_15;;
+*);;
+concept_situation -> 
+[*oshmjany_4249501000 => nrel_population: ..time_value_population18635;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978910">http://www.opеnstrееtmap.org/nodе/242978910</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population18635
+=> nrel_main_idtf: [15450 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_15450;;
+-> rrel_thousands: number_15;;
+*);;
+concept_situation -> 
+[*concept_locality -> oshmjany_4249501000;;*] 
+(* 
+=> nrel_start_time: time_point_1341;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> oshmjany_4249501000;;*] 
+(* 
+=> nrel_start_time: time_point_1341;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978910">http://www.opеnstrееtmap.org/nodе/242978910</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*oshmjany_4249501000 <= nrel_terrain_object_location: ..position9317;;*] 
+(* 
+=> nrel_start_time: time_point_1341;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978910">http://www.opеnstrееtmap.org/nodе/242978910</a>] (* => nrel_format: format_html;; *);;
+*);;
+oshmjany_4249501000<- concept_mapped_point;;
+oshmjany_4249501000<- concept_terrain_object;;
+oshmjany_4249501000<- concept_mapped_object;;

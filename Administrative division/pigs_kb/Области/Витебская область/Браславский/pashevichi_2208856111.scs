@@ -1,0 +1,19 @@
+concept_situation -> 
+[*pashevichi_2208856111=> nrel_code_soato: number_2208856111;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> pashevichi_2208856111;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> pashevichi_2208856111;;*] 
+;;
+concept_situation -> 
+[*pashevichi_2208856111 <= nrel_terrain_object_location: ..position8842;;*] 
+;;
+pashevichi_2208856111<- concept_mapped_point;;
+pashevichi_2208856111<- concept_terrain_object;;
+pashevichi_2208856111<- concept_mapped_object;;

@@ -1,0 +1,41 @@
+
+church_of_holy_trinity_in_vysokae
+=> nrel_main_idtf:[Костёл Святых Апостолов Петра и Павла (1925)](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Holy Petr and Pavel](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/holy_trinity.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Католический храм в деревне Высокое, возведённый в XVIII веке. Памятник архитектуры позднего барокко.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_the_Holy_Trinity_in_Vysokaje">https://commons.wikimedia.org/wiki/Category:Church_of_the_Holy_Trinity_in_Vysokaje</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshoe_vysokoe_2246756031;;*);
+
+
+
+<- concept_building;
+=> nrel_osm_query: [way["addr:city"="Каменец"]["building"="church"]["name"="Костёл Святых Апостолов Петра и Павла (1925)"];(._;>;);];;
+
+rrel_cipher_113G000336 => nrel_main_idtf:[113Г000336'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000336 : church_of_holy_trinity_in_vysokae;;

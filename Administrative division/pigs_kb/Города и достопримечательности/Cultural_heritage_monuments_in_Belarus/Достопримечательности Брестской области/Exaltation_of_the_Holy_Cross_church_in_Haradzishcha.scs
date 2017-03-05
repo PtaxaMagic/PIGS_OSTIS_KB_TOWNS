@@ -1,0 +1,36 @@
+Exaltation_of_the_Holy_Cross_church_in_Haradzishcha
+=> nrel_main_idtf:[Церковь воздвижения святого креста в городском посёлке Городище](* <- lang_ru;;*);
+=> nrel_main_idtf:[Exaltation of the Holy Cross church in Haradzišča](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/church_haradzishcha.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...	
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Православная церковь XX века, Городище, Барановичский р-н, Брестская область, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1918;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Exaltation_of_the_Holy_Cross_church_in_Haradzi%C5%A1%C4%8Da"</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:gorodishche_1204555000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [ay["name"="Церковь Воздвижения Креста Господня"]["addr:street"="улица 17 Сентября"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list -> Exaltation_of_the_Holy_Cross_church_in_Haradzishcha;;

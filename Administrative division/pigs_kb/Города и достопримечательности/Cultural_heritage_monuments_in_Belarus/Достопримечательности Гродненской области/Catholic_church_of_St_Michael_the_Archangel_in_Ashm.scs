@@ -1,0 +1,26 @@
+Catholic_church_of_St_Michael_the_Archangel_in_Ashmiany
+=> nrel_main_idtf:[Католическая церковь Св. Архангела Михаила в Ошмянах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Catholic church of St. Michael the Archangel in Ashmiany](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Catholic_church_of_St_Michael_the_Archangel_in_Ashmiany.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Catholic_church_of_St._Michael_the_Archangel,_A%C5%A1miany?uselang=ru">https://commons.wikimedia.org/wiki/Category:Catholic_church_of_St._Michael_the_Archangel,_A%C5%A1miany?uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: oshmjany_4249501000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Католическая церковь Св. Архангела Михаила в Ошмянах"];];;
+
+cultural_heritage_monuments_in_belarus_list -> Catholic_church_of_St_Michael_the_Archangel_in_Ashmiany;;

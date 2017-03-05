@@ -1,0 +1,39 @@
+chapel_of_saint_barbara_visokae
+=> nrel_main_idtf:[Каплица Святой Барбары](* <- lang_ru;;*);
+=> nrel_main_idtf:[Chapel of Saint Barbara in Kobrin](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/chapel_barbar.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [ Капліца на пагорку ў паўночна-заходняй ускраіне горада Высокае. Помнік архітэктуры барока.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Chapel_of_Saint_Barbara_in_Vysokaje">https://commons.wikimedia.org/wiki/Category:Chapel_of_Saint_Barbara_in_Vysokaje</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshoe_vysokoe_2246756031;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Часовня Святой Варвары (1772)"];(._;>;);];;
+
+rrel_cipher_113G000035 => nrel_main_idtf:[113Г000035'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000035 : chapel_of_saint_barbara_visokae;;

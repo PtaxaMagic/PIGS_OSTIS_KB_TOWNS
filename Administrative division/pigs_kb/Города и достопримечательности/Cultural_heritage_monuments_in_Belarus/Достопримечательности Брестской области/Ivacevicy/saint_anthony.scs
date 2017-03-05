@@ -1,0 +1,38 @@
+building_church_of_saint_anthony_in_kosava
+=> nrel_main_idtf:[Свято-Антониевская церковь в Коссово](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saint Anthony in Kosava](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/saint_anthony.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в Коссово. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Anthony_(Kosava)">https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Anthony_(Kosava)</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: kossovo_1234510000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Коссово"]["addr:region"="Брестская область"];];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_church_of_saint_anthony_in_kosava;;

@@ -1,0 +1,37 @@
+Palace_of_Radzivil_family_in_Palaniechka
+=> nrel_main_idtf:[Дворец семьи Радзивиллов, Полонечка](* <- lang_ru;;*);
+=> nrel_main_idtf:[Palace of Radzivil family in Palaniečka](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/radzivil_polonechka.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Дворец семьи Радзивил начала IX века, Полонечка, Барановичский р-он, Брестская область, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1806;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Palace_of_Radzivil_family_in_Palanie%C4%8Dka"</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:polonechka_1204878071;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Полонечка"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list -> Palace_of_Radzivil_family_in_Palaniechka;;

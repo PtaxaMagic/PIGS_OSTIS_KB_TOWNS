@@ -1,0 +1,23 @@
+concept_situation -> 
+[*govjady_7258840016=> nrel_code_soato: number_7258840016;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> govjady_7258840016;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> govjady_7258840016;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243034534">http://www.opеnstrееtmap.org/nodе/243034534</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*govjady_7258840016 <= nrel_terrain_object_location: ..position9893;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243034534">http://www.opеnstrееtmap.org/nodе/243034534</a>] (* => nrel_format: format_html;; *);;
+*);;
+govjady_7258840016<- concept_mapped_point;;
+govjady_7258840016<- concept_terrain_object;;
+govjady_7258840016<- concept_mapped_object;;

@@ -1,0 +1,40 @@
+old_castle_Grodno
+=> nrel_main_idtf:[Старый замок в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[Old Castle in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/old_castle_Grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Первое оборонительное сооружение было построено еще в XI веке. В XIII веке Гродно (Городна) вошло в состав Великого княжества Литовского, с начала следующего столетия стало целью многочисленных нападений крестоносцев. В 1391 году замок стал одной из главных резиденций Витовта, который в 1398 году вместо деревянной крепости построил каменный готический замок с пятью башнями. Это здание в основном сохранилось и по сей день.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1391;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B3%D0%BB%D0%B5%D0%B1%D1%81%D0%BA%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)">https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B3%D0%BB%D0%B5%D0%B1%D1%81%D0%BA%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:grodno_4401000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [way["alt_name"="замак Баторыя"];(._;>;);];;
+
+rrel_cipher_411G000003 => nrel_main_idtf:[411Г000003'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_411G000003 : old_castle_Grodno;;

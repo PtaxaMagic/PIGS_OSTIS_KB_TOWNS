@@ -1,0 +1,54 @@
+concept_situation -> 
+[*polotsk_2435000000=> nrel_code_soato: number_2435000000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*polotsk_2435000000 => nrel_population: ..time_value_population13948;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population13948
+=> nrel_main_idtf: [83000 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_83000;;
+-> rrel_thousands: number_83;;
+*);;
+concept_situation -> 
+[*polotsk_2435000000 => nrel_population: ..time_value_population13949;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/119310785">http://www.opеnstrееtmap.org/nodе/119310785</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population13949
+=> nrel_main_idtf: [84593 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_84593;;
+-> rrel_thousands: number_84;;
+*);;
+concept_situation -> 
+[*concept_locality -> polotsk_2435000000;;*] 
+(* 
+=> nrel_start_time: time_point_862;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> polotsk_2435000000;;*] 
+(* 
+=> nrel_start_time: time_point_862;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/119310785">http://www.opеnstrееtmap.org/nodе/119310785</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*polotsk_2435000000 <= nrel_terrain_object_location: ..position6974;;*] 
+(* 
+=> nrel_start_time: time_point_862;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/119310785">http://www.opеnstrееtmap.org/nodе/119310785</a>] (* => nrel_format: format_html;; *);;
+*);;
+polotsk_2435000000<- concept_mapped_point;;
+polotsk_2435000000<- concept_terrain_object;;
+polotsk_2435000000<- concept_mapped_object;;

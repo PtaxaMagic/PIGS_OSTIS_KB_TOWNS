@@ -1,0 +1,37 @@
+Historical_center_of_Brest
+=> nrel_main_idtf:[Исторический центр Бреста](* <- lang_ru;;*);
+=> nrel_main_idtf:[Historical center of Brest](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Karla_Marksa_Street_in_Brest.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Историчейский центр Бреста, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+                
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Historical_center_of_Brest"</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:brest_1401000000;;*);
+
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Брест"];];;
+
+rrel_cipher_112E000002 => nrel_main_idtf:[112Е000002](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_112E000002 : Historical_center_of_Brest;;

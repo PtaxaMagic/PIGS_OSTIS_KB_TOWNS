@@ -1,0 +1,30 @@
+Abramovich_Estate_in_Varniany
+=> nrel_main_idtf:[Поместье Абрамовичей в Варнянах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Abramovich Estate in Varniany](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Abramovich_Estate_in_Varniany.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Abramovi%C4%8D_Estate_in_Varniany?uselang=ru">https://commons.wikimedia.org/wiki/Category:Abramovi%C4%8D_Estate_in_Varniany?uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight: vornjany_4246804046;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Поместье Абрамовичей в Варнянах"];];;
+
+rrel_cipher_412G000038 => nrel_main_idtf:[412Г000038'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000038 : Abramovich_Estate_in_Varniany;;

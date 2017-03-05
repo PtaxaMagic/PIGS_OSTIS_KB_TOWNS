@@ -1,0 +1,19 @@
+concept_situation -> 
+[*dalnee_ljado_7213804021=> nrel_code_soato: number_7213804021;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> dalnee_ljado_7213804021;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> dalnee_ljado_7213804021;;*] 
+;;
+concept_situation -> 
+[*dalnee_ljado_7213804021 <= nrel_terrain_object_location: ..position8174;;*] 
+;;
+dalnee_ljado_7213804021<- concept_mapped_point;;
+dalnee_ljado_7213804021<- concept_terrain_object;;
+dalnee_ljado_7213804021<- concept_mapped_object;;

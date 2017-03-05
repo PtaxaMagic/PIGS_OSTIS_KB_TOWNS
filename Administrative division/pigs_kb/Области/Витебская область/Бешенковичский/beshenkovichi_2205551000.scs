@@ -1,0 +1,51 @@
+concept_situation -> 
+[*beshenkovichi_2205551000=> nrel_code_soato: number_2205551000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*beshenkovichi_2205551000 => nrel_population: ..time_value_population12112;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population12112
+=> nrel_main_idtf: [8200 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_8200;;
+-> rrel_thousands: number_8;;
+*);;
+concept_situation -> 
+[*beshenkovichi_2205551000 => nrel_population: ..time_value_population12113;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978968">http://www.opеnstrееtmap.org/nodе/242978968</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population12113
+=> nrel_main_idtf: [6902 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_6902;;
+-> rrel_thousands: number_6;;
+*);;
+concept_situation -> 
+[*concept_locality -> beshenkovichi_2205551000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> beshenkovichi_2205551000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978968">http://www.opеnstrееtmap.org/nodе/242978968</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*beshenkovichi_2205551000 <= nrel_terrain_object_location: ..position6056;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978968">http://www.opеnstrееtmap.org/nodе/242978968</a>] (* => nrel_format: format_html;; *);;
+*);;
+beshenkovichi_2205551000<- concept_mapped_point;;
+beshenkovichi_2205551000<- concept_terrain_object;;
+beshenkovichi_2205551000<- concept_mapped_object;;

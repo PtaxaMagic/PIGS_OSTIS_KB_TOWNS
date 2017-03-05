@@ -1,0 +1,13 @@
+nrel_place
+=> nrel_main_idtf:
+	[местонахождение*] (* <- lang_ru;; *);
+	[location*] (* <- lang_en;; *);
+	[месцазнаходжанне*] (* <- lang_by;; *);
+<- sc_node_norole_relation;
+<- relation;
+<- antisymmetric_relation;
+<- antireflexive_relation;
+<- decomposition_relation;
+<- oriented_relation;
+<- quasybinary_relation;;
+

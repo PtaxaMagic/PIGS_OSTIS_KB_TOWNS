@@ -1,0 +1,54 @@
+concept_situation -> 
+[*skidel_4220504000=> nrel_code_soato: number_4220504000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*skidel_4220504000 => nrel_population: ..time_value_population4276;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population4276
+=> nrel_main_idtf: [11200 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_11200;;
+-> rrel_thousands: number_11;;
+*);;
+concept_situation -> 
+[*skidel_4220504000 => nrel_population: ..time_value_population4277;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/351282610">http://www.opеnstrееtmap.org/nodе/351282610</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population4277
+=> nrel_main_idtf: [10574 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_10574;;
+-> rrel_thousands: number_10;;
+*);;
+concept_situation -> 
+[*concept_locality -> skidel_4220504000;;*] 
+(* 
+=> nrel_start_time: time_point_1508;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> skidel_4220504000;;*] 
+(* 
+=> nrel_start_time: time_point_1508;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/351282610">http://www.opеnstrееtmap.org/nodе/351282610</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*skidel_4220504000 <= nrel_terrain_object_location: ..position2138;;*] 
+(* 
+=> nrel_start_time: time_point_1508;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/351282610">http://www.opеnstrееtmap.org/nodе/351282610</a>] (* => nrel_format: format_html;; *);;
+*);;
+skidel_4220504000<- concept_mapped_point;;
+skidel_4220504000<- concept_terrain_object;;
+skidel_4220504000<- concept_mapped_object;;

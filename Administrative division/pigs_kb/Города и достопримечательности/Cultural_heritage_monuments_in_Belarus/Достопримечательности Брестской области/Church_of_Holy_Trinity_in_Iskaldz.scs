@@ -1,0 +1,37 @@
+Church_of_Holy_Trinity_in_Iskaldz
+=> nrel_main_idtf:[Церковь святой троицы в Ишклоди](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Holy Trinity, Iškaldź](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Ishklodz_cgurch.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Православная церковь XX века, Ишклодь, Барановичский р-он, Брестская область, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+                
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Holy_Trinity,_I%C5%A1kald%C5%BA"</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:ishkold_1204887016;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Троицкий костел"]["amenity"="place_of_worship"]["building"="yes"]["building:architecture"="gothic"];(._;>;);];;
+
+rrel_cipher_113G000056 => nrel_main_idtf:[113Г000056](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000056 : Church_of_Holy_Trinity_in_Iskaldz;;

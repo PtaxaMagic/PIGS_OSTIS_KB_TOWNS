@@ -1,0 +1,37 @@
+concept_situation -> 
+[*kolodischi_6236834031=> nrel_code_soato: number_6236834031;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*kolodischi_6236834031 => nrel_population: ..time_value_population20435;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243017737">http://www.opеnstrееtmap.org/nodе/243017737</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population20435
+=> nrel_main_idtf: [17000 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_17000;;
+-> rrel_thousands: number_17;;
+*);;
+concept_situation -> 
+[*concept_locality -> kolodischi_6236834031;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_settlement -> kolodischi_6236834031;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243017737">http://www.opеnstrееtmap.org/nodе/243017737</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*kolodischi_6236834031 <= nrel_terrain_object_location: ..position10217;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243017737">http://www.opеnstrееtmap.org/nodе/243017737</a>] (* => nrel_format: format_html;; *);;
+*);;
+kolodischi_6236834031<- concept_mapped_point;;
+kolodischi_6236834031<- concept_terrain_object;;
+kolodischi_6236834031<- concept_mapped_object;;

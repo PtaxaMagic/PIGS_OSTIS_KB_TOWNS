@@ -1,0 +1,36 @@
+Church_of_the_Exaltation_of_the_Holy_Cross_in_Baranovichy
+=> nrel_main_idtf:[Церковь Воздвижения Креста в Барановичах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Exaltation of the Holy Cross in Baranavičy](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_the_Exaltation_of_the_Holy_Cross.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [католический храм в городе Барановичи, Брестская область, Беларусь. Памятник архитектуры в романском стиле. Построен в 1925 году.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1925;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_the_Exaltation_of_the_Holy_Cross,_Baranavi%C4%8Dy"</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:baranovichi_1410000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костёл Крестовоздвиженский"]["amenity"="place_of_worship"]["start_date"="1924"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list -> Church_of_the_Exaltation_of_the_Holy_Cross_in_Baranovichy;;

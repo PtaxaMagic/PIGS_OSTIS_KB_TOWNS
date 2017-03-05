@@ -1,0 +1,8 @@
+rrel_sight
+=> nrel_main_idtf:
+	[достопримечательность'] (* <- lang_ru;; *);
+	[sight'] (* <- lang_en;; *);
+<- sc_node_role_relation;
+<- relation;
+<- oriented_relation;;
+

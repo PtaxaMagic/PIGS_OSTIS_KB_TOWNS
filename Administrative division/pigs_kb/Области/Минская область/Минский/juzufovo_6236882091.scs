@@ -1,0 +1,23 @@
+concept_situation -> 
+[*juzufovo_6236882091=> nrel_code_soato: number_6236882091;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> juzufovo_6236882091;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> juzufovo_6236882091;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243010257">http://www.opеnstrееtmap.org/nodе/243010257</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*juzufovo_6236882091 <= nrel_terrain_object_location: ..position9987;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243010257">http://www.opеnstrееtmap.org/nodе/243010257</a>] (* => nrel_format: format_html;; *);;
+*);;
+juzufovo_6236882091<- concept_mapped_point;;
+juzufovo_6236882091<- concept_terrain_object;;
+juzufovo_6236882091<- concept_mapped_object;;

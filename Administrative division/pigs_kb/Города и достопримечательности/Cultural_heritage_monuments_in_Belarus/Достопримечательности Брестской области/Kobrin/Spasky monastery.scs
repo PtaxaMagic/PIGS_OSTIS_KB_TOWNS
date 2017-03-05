@@ -1,0 +1,40 @@
+
+spasky_monastery_kobrin
+=> nrel_main_idtf:[Монастырь Святого Спаса](* <- lang_ru;;*);
+=> nrel_main_idtf:[Suvorow Museum in Kobrin](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/spas.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [женский православный монастырь в городе Кобрине Брестской области Белоруссии. Основан в XV веке князьями кобринскими. После принятия Брестской церковной унии 1569 года монастырь стал униатским, принадлежал ордену базилиан. После Полоцкого церковного собора 1839 года закрыт. В 2010 году восстановлен в качестве качестве женского православного монастыря. ];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Spasky_monastery_(Kobryn)">https://commons.wikimedia.org/wiki/Category:Spasky_monastery_(Kobryn)</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:kobrin_1243506000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [way["addr:city"="Кобрин"]["building"="church"]["name"="Свято-Рождественская"];(._;>;);];;
+
+rrel_cipher_112G000386 => nrel_main_idtf:[112Г000386'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_112G000386 : spasky_monastery_kobrin;;

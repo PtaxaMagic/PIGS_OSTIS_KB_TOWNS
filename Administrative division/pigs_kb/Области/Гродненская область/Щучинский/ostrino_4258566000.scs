@@ -1,0 +1,37 @@
+concept_situation -> 
+[*ostrino_4258566000=> nrel_code_soato: number_4258566000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*ostrino_4258566000 => nrel_population: ..time_value_population16461;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979002">http://www.opеnstrееtmap.org/nodе/242979002</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population16461
+=> nrel_main_idtf: [1884 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_1884;;
+-> rrel_thousands: number_1;;
+*);;
+concept_situation -> 
+[*concept_locality -> ostrino_4258566000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> ostrino_4258566000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979002">http://www.opеnstrееtmap.org/nodе/242979002</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*ostrino_4258566000 <= nrel_terrain_object_location: ..position8230;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979002">http://www.opеnstrееtmap.org/nodе/242979002</a>] (* => nrel_format: format_html;; *);;
+*);;
+ostrino_4258566000<- concept_mapped_point;;
+ostrino_4258566000<- concept_terrain_object;;
+ostrino_4258566000<- concept_mapped_object;;

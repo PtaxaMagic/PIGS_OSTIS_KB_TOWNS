@@ -1,0 +1,38 @@
+building_kasciushko_house
+=> nrel_main_idtf:[Усадьба Тадеуша Костюшко](* <- lang_ru;;*);
+=> nrel_main_idtf:[Kasciuska House](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/kascushko_house.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Севернее Коссово находится Меречевщина. Это место, где прошли первые годы жизни Тадеуша Костюшко – одного из видных деятелей белорусского народного движения и национального героя Польши и США, а также почетного гражданина Франции. Сегодня здесь расположен музей-усадьба – аутентичный сельский дом, где когда-то жил известный общественный деятель Тадеуш Костюшко. ];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Kasciu%C5%A1ka_House,_Miera%C4%8Do%C5%AD%C5%A1%C4%8Dyna">https://commons.wikimedia.org/wiki/Category:Kasciu%C5%A1ka_House,_Miera%C4%8Do%C5%AD%C5%A1%C4%8Dyna</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: kossovo_1234510000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Усадьба Костюшко"];];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_kasciushko_house;;

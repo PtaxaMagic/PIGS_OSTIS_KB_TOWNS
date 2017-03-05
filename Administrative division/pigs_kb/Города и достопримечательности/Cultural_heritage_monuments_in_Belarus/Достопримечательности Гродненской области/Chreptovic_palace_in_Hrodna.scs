@@ -1,0 +1,40 @@
+Chreptovic_palace_in_Hrodna
+=> nrel_main_idtf:[Дворец Хрептовичей в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[Chreptovic palace in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/chreptovich_palaceInGrodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Памятник архитектуры XVIII века. Находится на улице Замковой, 16.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1742;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%A5%D1%80%D0%B5%D0%BF%D1%82%D0%BE%D0%B2%D0%B8%D1%87%D0%B5%D0%B9_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)">https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%A5%D1%80%D0%B5%D0%BF%D1%82%D0%BE%D0%B2%D0%B8%D1%87%D0%B5%D0%B9_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: grodno_4401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Дворец Хрептовичей"];(._;>;);];;
+
+rrel_cipher_412G000014 => nrel_main_idtf:[412Г000014'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000014 : Chreptovic_palace_in_Hrodna;;

@@ -1,0 +1,39 @@
+building_chapel_burial_vault
+=> nrel_main_idtf:[Часовня-усыпальница Скирмунтов](* <- lang_ru;;*);
+=> nrel_main_idtf:[Chapel-burial-vault of Skirmunt family](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/chapel.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в Ивановск. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Chapel-burial-vault_of_Skirmunt_family,_Moladava">https://commons.wikimedia.org/wiki/Category:Chapel-burial-vault_of_Skirmunt_family,_Moladava</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:ivanovsk_7228820026;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Часовня-усыпальница Скирмунтов (1908)"];(._;>;);];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_chapel_burial_vault;;

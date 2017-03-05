@@ -1,0 +1,47 @@
+Navahradak_Castle
+=> nrel_main_idtf:[Новогрудский замок](* <- lang_ru;;*);
+=> nrel_main_idtf:[Navahradak Castle](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Navahradak_Castle.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [руины замка в городе Новогрудке на склонах Замковой горы. Уникальный памятник оборонительной архитектуры эпохи средневековья, древний центр Новогрудка, резиденция великих князей Великого княжества Литовского. Существовал в XI-XVII веках. Сохранились фундамент и остатки стен];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1750;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D1%80%D1%83%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA">https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D1%80%D1%83%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:novogrudok_4243501000;;*);
+
+
+=> nrel_subdividing: ... (*
+	<- Kascielnaja_tower;
+	Malaja_Brama;
+	Schytouka_tower;;
+*);
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Новогрудский замок"];(._;>;);];;
+
+rrel_cipher_411G000404 => nrel_main_idtf:[411Г000404'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_411G000404 : Navahradak_Castle;;

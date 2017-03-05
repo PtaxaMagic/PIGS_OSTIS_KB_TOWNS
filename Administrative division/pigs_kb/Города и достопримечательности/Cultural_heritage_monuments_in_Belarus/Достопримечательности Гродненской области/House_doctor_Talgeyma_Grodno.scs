@@ -1,0 +1,40 @@
+House_doctor_Talgeyma_Grodno
+=> nrel_main_idtf:[Дом врача Тальгейма в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[House doctor Talgeyma Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/talgeum_grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Построен в 1911г. в стиле модерн. Двухэтажный дом Г-образный в плане состоит из трех объемов. Средний, угловой – в виде башни, покрытой шатровой черепичной крышей. Вход в приемный покой врача находился со стороны ул. Карбышева, а в жилую часть дома – с ул. Ленина. В доме проживал и проводил прием больных известный гродненский врач Александр Тальгейм. Выпускник Киевского университета не только лечил больных, но и проводил большую общественную деятельность.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1911;
+
+=> nrel_source:[<a href = "http://tourgrodno.by/information/monuments/secular-monuments/dom-vracha-talgeyma-.html">http://tourgrodno.by/information/monuments/secular-monuments/dom-vracha-talgeyma-.html</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:grodno_4401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["description"="дом врача"];(._;>;);];;
+
+rrel_cipher_412G000658 => nrel_main_idtf:[412Г000658'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000658 : House_doctor_Talgeyma_Grodno;;

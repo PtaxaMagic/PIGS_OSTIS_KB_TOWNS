@@ -1,0 +1,51 @@
+concept_situation -> 
+[*shumilino_2258551000=> nrel_code_soato: number_2258551000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*shumilino_2258551000 => nrel_population: ..time_value_population12274;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population12274
+=> nrel_main_idtf: [7900 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_7900;;
+-> rrel_thousands: number_7;;
+*);;
+concept_situation -> 
+[*shumilino_2258551000 => nrel_population: ..time_value_population12275;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/132174058">http://www.opеnstrееtmap.org/nodе/132174058</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population12275
+=> nrel_main_idtf: [7395 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_7395;;
+-> rrel_thousands: number_7;;
+*);;
+concept_situation -> 
+[*concept_locality -> shumilino_2258551000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> shumilino_2258551000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/132174058">http://www.opеnstrееtmap.org/nodе/132174058</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*shumilino_2258551000 <= nrel_terrain_object_location: ..position6137;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/132174058">http://www.opеnstrееtmap.org/nodе/132174058</a>] (* => nrel_format: format_html;; *);;
+*);;
+shumilino_2258551000<- concept_mapped_point;;
+shumilino_2258551000<- concept_terrain_object;;
+shumilino_2258551000<- concept_mapped_object;;

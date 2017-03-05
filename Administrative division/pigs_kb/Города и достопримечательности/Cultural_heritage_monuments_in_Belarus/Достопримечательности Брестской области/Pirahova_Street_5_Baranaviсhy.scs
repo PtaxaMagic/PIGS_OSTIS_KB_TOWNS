@@ -1,0 +1,39 @@
+Pirahova_5_Baranovichy
+=> nrel_main_idtf:[Пирогова 5, Барановичи](* <- lang_ru;;*);
+=> nrel_main_idtf:[Pirahova Street 5, Baranavičy](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/piragova5_baranovichy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Довоенное здание XX века, Барановичи, Брестская область, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1918;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Pirahova_Street_5,_Baranavi%C4%8Dy"</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:baranovichi_1410000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Пирогова"];];;
+
+rrel_cipher_113G000044 => nrel_main_idtf:[113Г000044](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_113G000044 : Pirahova_5_Baranovichy;;

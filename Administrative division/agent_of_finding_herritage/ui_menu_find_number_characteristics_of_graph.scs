@@ -1,0 +1,24 @@
+ui_menu_find_heritages_in_town <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_find_heritages_in_town =>nrel_main_idtf: [Какие достопримечательности находятся в данном городе?] (* <- lang_ru;; *);;
+
+ui_menu_find_heritages_in_town =>nrel_main_idtf: [What herritages are located in this town?] (* <- lang_en;; *);;
+
+// Указываем шаблон нашей команды
+ui_menu_find_heritages_in_town =>ui_nrel_command_template:
+[*
+	question_find_heritages_in_town _-> ._question_find_heritages_in_town_instance
+	(*
+		_-> ui_arg_1;;
+	*);;
+
+	._question_find_heritages_in_town_instance _<- question;;
+*];;
+
+ui_menu_find_heritages_in_town =>ui_nrel_command_lang_template: [Какие достопримечательности в городе: $ui_arg_1] 
+(*
+	<- lang_ru;; 
+*);;
+
+ui_menu_find_heritages_in_town =>ui_nrel_command_lang_template: [What herritages are located in this town: $ui_arg_1]
+(* <- lang_en;; *);;

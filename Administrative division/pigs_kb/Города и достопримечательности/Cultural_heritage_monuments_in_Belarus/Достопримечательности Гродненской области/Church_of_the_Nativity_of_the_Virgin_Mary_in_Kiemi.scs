@@ -1,0 +1,14 @@
+Church_of_the_Nativity_of_the_Virgin_Mary_in_Kiemielishki
+=> nrel_main_idtf:[Церковь Рождества Пресвятой Девы Марии в Кемелишках](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Nativity of the Virgin Mary in Kiemielishki](*<- lang_en;;*);
+
+=> nrel_source:[<a href = "https://www.newikis.com/en/commons/Category:Church_of_the_Nativity_of_the_Virgin_Mary_in_Kiemieli%C5%A1ki">hhttps://www.newikis.com/en/commons/Category:Church_of_the_Nativity_of_the_Virgin_Mary_in_Kiemieli%C5%A1ki</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:kemelishki_4246820091;;*);
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Церковь Рождества Пресвятой Девы Марии в Кемелишках"];];;
+
+rrel_cipher_413V000047 => nrel_main_idtf:[413В000047'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_413V000047 : Church_of_the_Nativity_of_the_Virgin_Mary_in_Kiemielishki;;

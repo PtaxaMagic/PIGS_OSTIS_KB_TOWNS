@@ -1,0 +1,36 @@
+church_of_saint_simon_kamianec
+=> nrel_main_idtf:[Костел Cвятого Симеона в Каменец](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saint Simon in Kamieniec](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/simon.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Католический храм в деревне Каменец, возведённый в XVIII веке. Памятник архитектуры позднего барокко.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Simon_in_Kamieniec">https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Simon_in_Kamieniec</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshoj_kamenets_6230840006;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["addr:city"="Каменец"]["building"="church"]["name"="Храм преподобного Симеона Столпника (1914)"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list ->  church_of_saint_simon_kamianec;;

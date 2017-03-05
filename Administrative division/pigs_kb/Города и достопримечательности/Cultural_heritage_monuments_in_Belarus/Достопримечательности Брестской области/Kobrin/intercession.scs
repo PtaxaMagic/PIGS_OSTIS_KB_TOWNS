@@ -1,0 +1,38 @@
+
+building_orthodox_church_of_the_intercession_of_our_lady
+=> nrel_main_idtf:[Храм Спасителя Николая Чудотворца (1750)](* <- lang_ru;;*);
+=> nrel_main_idtf:[Orthodox church of the Nikolai-Savior (1750)](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/intercession.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в деревне Быховщина. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Orthodox_church_of_the_Transfiguration_of_Jesus_Christ_in_Motal">https://commons.wikimedia.org/wiki/Category:Orthodox_church_of_the_Transfiguration_of_Jesus_Christ_in_Motal</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:bolshaja_byhovschina_6242820006;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["addr:city"="Кобрин"]["building"="church"]["addr:street"="Никольская улица"];(._;>;);];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_orthodox_church_of_the_intercession_of_our_lady;;

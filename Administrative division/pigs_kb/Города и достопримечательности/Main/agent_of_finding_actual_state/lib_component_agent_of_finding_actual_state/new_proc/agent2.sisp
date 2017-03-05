@@ -1,0 +1,78 @@
+function proc_of_finding_actual_state(_object, _time_point) {
+  return _answer;
+  generate([assign, node, constant, _answer]);
+  generate([assign, node, constant, _arcs]);
+  proc_of_finding_all_situations(_object, [assign, _situations]);
+  show(_situations);
+  if (_situations)
+    while(search(_situations, [assign, _arc], [assign, _situation])) {
+      proc_of_checking_situation_in_time(_situation, _time_point, [assign, _status]);
+      if (_status)
+        proc_of_adding_all_elements_to_set(_answer, _situation);
+      erase([erase, _arc]);
+    }
+  
+}
+
+function proc_of_adding_all_elements_to_set(_set, _elements) {
+  search(
+    _elements,
+    [assign, pos_const_perm, _arc],
+    [assign, _element],
+    [],[],[assign, _elements_copy]
+  );
+  if (_elements_copy) {
+    while(search(_elements_copy, [assign, _arc], [assign, _element])) {
+      if (search(_set, [assign, _tmp_arc], _element)); else
+        generate(_set, [assign, pos_const_perm, _tmp_arc], _element);
+      erase([erase, _arc]);
+    }
+    erase([erase, _elements_copy]);
+  }
+}
+
+function proc_of_finding_all_situations(_object) {
+  return _situations;
+  generate([assign, node, constant, _situations]);
+  search(
+    [assign, _situation],
+    [assign, _arc],
+    _object,
+    [assign, _situations_copy], [], []
+  );
+  if (_situations_copy)
+    while(search(_situations_copy, [assign, _arc], [assign, _situation])) {
+      if (search(concept_situation, [assign, _tmp_arc], _situation))
+        generate(_situations, [assign, pos_const_perm, _tmp_arc], _situation);
+      erase([erase, _arc]);
+    }
+}
+
+function proc_of_checking_situation_in_time(_situation, _time_point) {
+  return _status;
+  search(
+    _situation,
+    [assign, _arc1],
+    [assign, _start_time],
+    [assign, _arc2],
+    nrel_start_time
+  );
+  search(
+    _situation,
+    [assign, _arc1],
+    [assign, _finish_time],
+    [assign, _arc2],
+    nrel_finish_time
+  );
+  if (_start_time)
+    proc_of_compare_time_points(_time_point, _start_time, [assign, _time1]);
+  else var_assign([assign, _time1], _time_point);
+  if (_finish_time)
+    proc_of_compare_time_points(_time_point, _finish_time, [assign, _time2]);
+  else var_assign([assign, _time2], empty);
+  show(_time1);
+  show(_time2);
+  if (is(_time_point, _time1))
+    if (is(_time_point, _time2)); else  
+      var_assign([assign, _status], _time_point);
+}

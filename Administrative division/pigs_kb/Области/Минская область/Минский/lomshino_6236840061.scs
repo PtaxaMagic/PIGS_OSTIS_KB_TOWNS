@@ -1,0 +1,19 @@
+concept_situation -> 
+[*lomshino_6236840061=> nrel_code_soato: number_6236840061;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> lomshino_6236840061;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> lomshino_6236840061;;*] 
+;;
+concept_situation -> 
+[*lomshino_6236840061 <= nrel_terrain_object_location: ..position9184;;*] 
+;;
+lomshino_6236840061<- concept_mapped_point;;
+lomshino_6236840061<- concept_terrain_object;;
+lomshino_6236840061<- concept_mapped_object;;

@@ -1,0 +1,19 @@
+concept_situation -> 
+[*dubrovnoe_3203846026=> nrel_code_soato: number_3203846026;;*] 
+(* 
+=> nrel_start_time: time_point_2007;;
+*);;
+concept_situation -> 
+[*concept_locality -> dubrovnoe_3203846026;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> dubrovnoe_3203846026;;*] 
+;;
+concept_situation -> 
+[*dubrovnoe_3203846026 <= nrel_terrain_object_location: ..position651;;*] 
+;;
+dubrovnoe_3203846026<- concept_mapped_point;;
+dubrovnoe_3203846026<- concept_terrain_object;;
+dubrovnoe_3203846026<- concept_mapped_object;;

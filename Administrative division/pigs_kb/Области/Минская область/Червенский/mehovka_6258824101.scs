@@ -1,0 +1,19 @@
+concept_situation -> 
+[*mehovka_6258824101=> nrel_code_soato: number_6258824101;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> mehovka_6258824101;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> mehovka_6258824101;;*] 
+;;
+concept_situation -> 
+[*mehovka_6258824101 <= nrel_terrain_object_location: ..position11014;;*] 
+;;
+mehovka_6258824101<- concept_mapped_point;;
+mehovka_6258824101<- concept_terrain_object;;
+mehovka_6258824101<- concept_mapped_object;;

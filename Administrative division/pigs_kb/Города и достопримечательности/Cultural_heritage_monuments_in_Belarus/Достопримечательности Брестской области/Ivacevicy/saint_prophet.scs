@@ -1,0 +1,40 @@
+
+building_church_of_saint_prophet_ilii_in_bialavichi
+=> nrel_main_idtf:[Церковь святого пророка Ильи](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saint Prophet Elijah in Bialavichi](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/saint_prophet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в деревни Белявичи. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Prophet_Elijah_in_Bialavi%C4%8Dy">https://commons.wikimedia.org/wiki/Category:Church_of_Saint_Prophet_Elijah_in_Bialavi%C4%8Dy</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:belavka_7242824006;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Храм Во Имя Св. Пророка Илии"]["addr:region"="Брестская область"];];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_church_of_saint_prophet_ilii_in_bialavichi;;

@@ -1,0 +1,37 @@
+concept_situation -> 
+[*kirovskaja_2212848061=> nrel_code_soato: number_2212848061;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*kirovskaja_2212848061 => nrel_population: ..time_value_population19129;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243035546">http://www.opеnstrееtmap.org/nodе/243035546</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population19129
+=> nrel_main_idtf: [942 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_942;;
+-> rrel_thousands: number_0;;
+*);;
+concept_situation -> 
+[*concept_locality -> kirovskaja_2212848061;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_agrogorodok -> kirovskaja_2212848061;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243035546">http://www.opеnstrееtmap.org/nodе/243035546</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*kirovskaja_2212848061 <= nrel_terrain_object_location: ..position9564;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243035546">http://www.opеnstrееtmap.org/nodе/243035546</a>] (* => nrel_format: format_html;; *);;
+*);;
+kirovskaja_2212848061<- concept_mapped_point;;
+kirovskaja_2212848061<- concept_terrain_object;;
+kirovskaja_2212848061<- concept_mapped_object;;

@@ -1,0 +1,38 @@
+Building_of_Peasant_Land_Bank_in_Hrodna
+=> nrel_main_idtf:[Здание бывшего земельного банка в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[Building of Peasant Land Bank in Hrodna](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/land_bank_in_grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Здание бывшего земельного банка (архитектор Б. П. Остраумов)];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1793;
+
+
+=> nrel_place: ... (* <-rrel_sight: grodno_4401000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Здание бывшего земельного банка в Гродно"];(._;>;);];;
+
+rrel_cipher_513G000034 => nrel_main_idtf:[513Г000034'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_513G000034 : Building_of_Peasant_Land_Bank_in_Hrodna;;

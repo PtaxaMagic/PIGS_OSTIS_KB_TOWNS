@@ -1,0 +1,23 @@
+cultural_heritage_monuments_in_belarus_list
+=> nrel_main_idtf: [Государственный список историко-культурных ценностей Республики Беларусь](* <- lang_ru;;*);
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Государственный список историко-культурных ценностей Республики Беларусь — список объектов архитектуры, истории, археологии, искусства, парковые комплексы, музейные коллекции и книги, которые находятся под охраной государства.] (*<- lang_ru;;*);; 
+                         *);;
+                       *);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://cultural_heritage_monuments_in_belarus_list.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;

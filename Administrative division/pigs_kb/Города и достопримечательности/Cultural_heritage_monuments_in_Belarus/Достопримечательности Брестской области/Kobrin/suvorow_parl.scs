@@ -1,0 +1,38 @@
+
+suvorow_park_kobrin
+=> nrel_main_idtf:[Парк имени Суворова](* <- lang_ru;;*);
+=> nrel_main_idtf:[Suvorow Park in Kobrin](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/park_suv.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Парк культуры и отдыха в Кобрине, памятник природы республиканского значения. Назван в честь русского полководца Александра Суворова, которому некоторое время принадлежало имение Кобринский ключ, на территории которого и находился парк с усадебным домом. Является старейшим в Беларуси парком.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Suvorov_Park">https://commons.wikimedia.org/wiki/Category:Suvorov_Park</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:kobrin_1243506000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Приусадебный парк при бывшей усадьбе Тызенгаузов"];];;
+
+
+cultural_heritage_monuments_in_belarus_list -> suvorow_park_kobrin;;

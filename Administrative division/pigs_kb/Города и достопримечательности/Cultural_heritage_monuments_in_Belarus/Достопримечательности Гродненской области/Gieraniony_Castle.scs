@@ -1,0 +1,26 @@
+Gieraniony_Castle
+=> nrel_main_idtf:[Гераненский замок](* <- lang_ru;;*);
+=> nrel_main_idtf:[Gieraniony Castle](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Gieraniony_Castle.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Gieraniony_Castle_in_art">https://commons.wikimedia.org/wiki/Category:Gieraniony_Castle_in_art</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:geraneny_4229807026;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Гераненский замок"];];;
+
+cultural_heritage_monuments_in_belarus_list -> Gieraniony_Castle;;

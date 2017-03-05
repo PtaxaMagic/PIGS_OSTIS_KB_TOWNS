@@ -1,0 +1,40 @@
+concept_situation -> 
+[*bobrujsk_7410000000=> nrel_code_soato: number_7410000000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*bobrujsk_7410000000 => nrel_population: ..time_value_population4999;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/193823659">http://www.opеnstrееtmap.org/nodе/193823659</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population4999
+=> nrel_main_idtf: [216522 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_216522;;
+-> rrel_thousands: number_216;;
+*);;
+concept_situation -> 
+[*concept_locality -> bobrujsk_7410000000;;*] 
+(* 
+=> nrel_start_time: time_point_1387;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> bobrujsk_7410000000;;*] 
+(* 
+=> nrel_start_time: time_point_1387;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/193823659">http://www.opеnstrееtmap.org/nodе/193823659</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*bobrujsk_7410000000 <= nrel_terrain_object_location: ..position2499;;*] 
+(* 
+=> nrel_start_time: time_point_1387;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/193823659">http://www.opеnstrееtmap.org/nodе/193823659</a>] (* => nrel_format: format_html;; *);;
+*);;
+bobrujsk_7410000000<- concept_mapped_point;;
+bobrujsk_7410000000<- concept_terrain_object;;
+bobrujsk_7410000000<- concept_mapped_object;;

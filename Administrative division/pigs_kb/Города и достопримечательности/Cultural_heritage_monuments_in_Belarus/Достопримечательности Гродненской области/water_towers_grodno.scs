@@ -1,0 +1,41 @@
+water_towers_grodno	
+=> nrel_main_idtf:[Водонапорные башни в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[water towers in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/water_towers_grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Две 22-метровые кирпичные восьмигранные башни накрыты 8-скатными крышами. В центре башен расположены трубы для подачи воды в резервуары, которые находятся в верхних частях. Восточная башня была построена в 1890 г. Ее стены декорированы сухариками, пилястрами, лопатками, люкарными, фигурными наличниками. Карнизы украшены орнаментами. Снаружи здание разделено на 4 яруса «жемчужными» поясами дентикулы. На уровне третьего яруса в неглубогих нишах, выполненных в виде кокошников, расположены полуциркульные окна. Необычный колорит зданию придает живописное сочетание красного кирпича и белой штукатурки. Западную башню возвели чуть позже, в 1910 году. Декорация ее фасадов более сдержана. Наличники окон и дверей, расположенных на уровне 2 яруса, имеют сложную форму и окрашены в белый цвет. Грани башни раскрепованы лучковыми и арочными окнами и нишами, углы выделены лопатками. ];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1895;
+
+=> nrel_source:[<a href = "https://be.wikipedia.org/wiki/%D0%92%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0%D0%BF%D0%BE%D1%80%D0%BD%D1%8B%D1%8F_%D0%B2%D0%B5%D0%B6%D1%8B,_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%B0">https://be.wikipedia.org/wiki/%D0%92%D0%BE%D0%B4%D0%B0%D0%BD%D0%B0%D0%BF%D0%BE%D1%80%D0%BD%D1%8B%D1%8F_%D0%B2%D0%B5%D0%B6%D1%8B,_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%B0</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: grodno_4401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Водонапорные башни"];(._;>;);];;
+
+rrel_cipher_412G000026 => nrel_main_idtf:[412Г000026'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000026 : water_towers_grodno;;
+	

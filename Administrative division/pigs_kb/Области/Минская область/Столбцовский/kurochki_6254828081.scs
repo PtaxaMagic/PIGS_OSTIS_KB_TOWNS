@@ -1,0 +1,19 @@
+concept_situation -> 
+[*kurochki_6254828081=> nrel_code_soato: number_6254828081;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> kurochki_6254828081;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> kurochki_6254828081;;*] 
+;;
+concept_situation -> 
+[*kurochki_6254828081 <= nrel_terrain_object_location: ..position6082;;*] 
+;;
+kurochki_6254828081<- concept_mapped_point;;
+kurochki_6254828081<- concept_terrain_object;;
+kurochki_6254828081<- concept_mapped_object;;

@@ -1,0 +1,51 @@
+concept_situation -> 
+[*krasnoselskij_4208557000=> nrel_code_soato: number_4208557000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*krasnoselskij_4208557000 => nrel_population: ..time_value_population18786;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population18786
+=> nrel_main_idtf: [7400 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_7400;;
+-> rrel_thousands: number_7;;
+*);;
+concept_situation -> 
+[*krasnoselskij_4208557000 => nrel_population: ..time_value_population18787;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979005">http://www.opеnstrееtmap.org/nodе/242979005</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population18787
+=> nrel_main_idtf: [6898 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_6898;;
+-> rrel_thousands: number_6;;
+*);;
+concept_situation -> 
+[*concept_locality -> krasnoselskij_4208557000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> krasnoselskij_4208557000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979005">http://www.opеnstrееtmap.org/nodе/242979005</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*krasnoselskij_4208557000 <= nrel_terrain_object_location: ..position9393;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979005">http://www.opеnstrееtmap.org/nodе/242979005</a>] (* => nrel_format: format_html;; *);;
+*);;
+krasnoselskij_4208557000<- concept_mapped_point;;
+krasnoselskij_4208557000<- concept_terrain_object;;
+krasnoselskij_4208557000<- concept_mapped_object;;

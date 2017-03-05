@@ -1,0 +1,30 @@
+Church_of_Saints_Peter_and_Paul_in_Baruny
+=> nrel_main_idtf:[Костел Святых Апостолов Петра и Павла в Борунах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saints Peter and Paul in Baruny](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_Saints_Peter_and_Paul_in_Baruny.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Saints_Peter_and_Paul_in_Baruny?uselang=ru">https://commons.wikimedia.org/wiki/Category:Church_of_Saints_Peter_and_Paul_in_Baruny?uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:boruny_4249804021;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костел Святых Апостолов Петра и Павла (1747-1753)"]["addr:city"="Боруны"];(._;>;);];;
+
+rrel_cipher_412G000062 => nrel_main_idtf:[412Г000062'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000062 : Church_of_Saints_Peter_and_Paul_in_Baruny;;

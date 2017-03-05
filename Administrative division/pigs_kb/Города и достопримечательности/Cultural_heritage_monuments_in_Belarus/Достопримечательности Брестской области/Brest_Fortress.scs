@@ -1,0 +1,39 @@
+Brest_Fortress
+=> nrel_main_idtf:[Брестская крепость](* <- lang_ru;;*);
+=> nrel_main_idtf:[Brest Fortress](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Brest_Fortres.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Бре́стская кре́пость (белор. Брэсцкая крэпасць, крепость Брест-Литовск) — крепость в черте города Бреста в Белоруссии, у впадения реки Мухавец в Западный Буг, а также Тереспольской гмины Польши (форты VI Тересполь, литеры Л Лебедев, VII Лобачёв, литеры И Жуки, литеры К Кобыляны, литеры О Корощин). Крепость-герой.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1918;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C"</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:brest_1401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Брестская крепость"];];;
+
+rrel_cipher_110G000707 => nrel_main_idtf:[110Г000707](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_110G000707 : Brest_Fortress;;

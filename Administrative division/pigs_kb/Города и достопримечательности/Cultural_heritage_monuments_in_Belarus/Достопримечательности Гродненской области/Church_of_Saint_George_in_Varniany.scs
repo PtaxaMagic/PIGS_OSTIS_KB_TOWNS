@@ -1,0 +1,40 @@
+Church_of_Saint_George_in_Varniany
+=> nrel_main_idtf:[Церковь Святого Юрия в Варнянах](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Saint George in Varniany](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/St._George's_Catholic_Church_in_Varniany.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [католический храм в агрогородке Ворняны, Гродненская область, Белоруссия. Относится к островецкому деканату Гродненского диоцеза. Памятник архитектуры в стиле позднего барокко. Построен в 1767—1769 годах.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%AE%D1%80%D0%B8%D1%8F_(%D0%92%D0%BE%D1%80%D0%BD%D1%8F%D0%BD%D1%8B)">https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%AE%D1%80%D0%B8%D1%8F_(%D0%92%D0%BE%D1%80%D0%BD%D1%8F%D0%BD%D1%8B)</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:vornjany_4246804046;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костёл святого Юрия (1767 г.)"]["addr:city"="Ворняны"];(._;>;);];;
+
+rrel_cipher_412G000038 => nrel_main_idtf:[412Г000038'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000038 : Church_of_Saint_George_in_Varniany;;

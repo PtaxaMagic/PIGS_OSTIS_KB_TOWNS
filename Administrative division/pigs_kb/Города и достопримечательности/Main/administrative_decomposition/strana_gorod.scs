@@ -1,0 +1,26 @@
+belarus_region_list <= nrel_administrative_subdividing: belarus_decomposition;;
+/*belarus_decomposition -> brest_1401000000;;
+belarus_decomposition -> vitebsk_2401000000;;
+belarus_decomposition -> gomel_3401000000;;
+belarus_decomposition -> grodno_6258827041;;
+belarus_decomposition -> minsk_5000000000;;*/
+
+
+belarus_decomposition -> minskaja_oblast;;
+belarus_decomposition -> vitebskaja_oblast;;
+belarus_decomposition -> grodnenskaja_oblast;;
+belarus_decomposition -> gomelskaja_oblast;;
+belarus_decomposition -> brestskaja_oblast;;
+belarus_decomposition -> mogiljovskaja_oblast;;
+
+belarus_region_list=> nrel_main_idtf: [Области Респулибки Беларусь](* <- lang_ru;; *);;
+minskaja_oblast=> nrel_main_idtf: [Минская область](* <- lang_ru;; *);;
+vitebskaja_oblast=> nrel_main_idtf: [Витебская область](* <- lang_ru;; *);;
+grodnenskaja_oblast=> nrel_main_idtf: [Гродненская область](* <- lang_ru;; *);;
+gomelskaja_oblast=> nrel_main_idtf: [Гомельская область](* <- lang_ru;; *);;
+brestskaja_oblast=> nrel_main_idtf: [Брестская область](* <- lang_ru;; *);;
+mogiljovskaja_oblast=> nrel_main_idtf: [Могилевская область](* <- lang_ru;; *);;
+
+belarus_decomposition=> nrel_main_idtf: [Областное деление](* <- lang_ru;; *);;
+
+grodno_6258827041 => nrel_main_idtf : [Гродно](* <- lang_ru;; *);;

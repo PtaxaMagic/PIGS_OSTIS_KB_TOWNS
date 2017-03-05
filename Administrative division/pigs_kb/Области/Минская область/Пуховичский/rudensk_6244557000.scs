@@ -1,0 +1,51 @@
+concept_situation -> 
+[*rudensk_6244557000=> nrel_code_soato: number_6244557000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*rudensk_6244557000 => nrel_population: ..time_value_population94;;*] 
+(* 
+=> nrel_start_time: time_point_2009;;
+=> nrel_finish_time: time_point_2014;;
+*);;
+..time_value_population94
+=> nrel_main_idtf: [3000 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_3000;;
+-> rrel_thousands: number_3;;
+*);;
+concept_situation -> 
+[*rudensk_6244557000 => nrel_population: ..time_value_population95;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979054">http://www.opеnstrееtmap.org/nodе/242979054</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population95
+=> nrel_main_idtf: [2672 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_2672;;
+-> rrel_thousands: number_2;;
+*);;
+concept_situation -> 
+[*concept_locality -> rudensk_6244557000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> rudensk_6244557000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979054">http://www.opеnstrееtmap.org/nodе/242979054</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*rudensk_6244557000 <= nrel_terrain_object_location: ..position47;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242979054">http://www.opеnstrееtmap.org/nodе/242979054</a>] (* => nrel_format: format_html;; *);;
+*);;
+rudensk_6244557000<- concept_mapped_point;;
+rudensk_6244557000<- concept_terrain_object;;
+rudensk_6244557000<- concept_mapped_object;;

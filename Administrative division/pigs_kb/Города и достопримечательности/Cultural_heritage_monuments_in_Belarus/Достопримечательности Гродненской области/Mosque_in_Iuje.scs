@@ -1,0 +1,30 @@
+Mosque_in_Iuje
+=> nrel_main_idtf:[Мечеть в Ивье](* <- lang_ru;;*);
+=> nrel_main_idtf:[Mosque in Iŭje](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Mosque_in_Iuje.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Mosque_in_I%C5%ADje">https://commons.wikimedia.org/wiki/Category:Mosque_in_I%C5%ADje</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:ive_4229813061;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Мечеть в Ивье"];];;
+
+rrel_cipher_413G000288 => nrel_main_idtf:[413Г000288'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_413G000288 : Mosque_in_Iuje;;

@@ -1,0 +1,28 @@
+ui_menu_find_situation <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+// Указываем русский идентификатор нашей операции в меню
+ui_menu_find_situation =>nrel_main_idtf: [Поиск ситуаций, в которых участвует понятие] (* <- lang_ru;; *);;
+
+// Указываем английский идентификатор нашей операции в меню
+ui_menu_find_situation =>nrel_main_idtf: [Search for situations in which the concept is involved] (* <- lang_en;; *);;
+
+// Указываем шаблон нашей команды
+ui_menu_find_situation =>ui_nrel_command_template:
+[*
+	question_of_finding_situations _-> ._question_of_finding_situations_instance
+	(*
+		_-> ui_arg_1;;
+	*);;
+
+	._question_of_finding_situations_instance _<- question;;
+*];;
+
+// Указываем текстовый шаблон команды на русском языке
+ui_menu_find_situation =>ui_nrel_command_lang_template: [Поиск ситуаций, в которых участвует понятие: $ui_arg_1] 
+(*
+	<- lang_ru;; 
+*);;
+
+// Указываем текстовый шаблон команды на английском языке
+ui_menu_find_situation =>ui_nrel_command_lang_template: [Search for situations in which the concept is involved: $ui_arg_1]
+(* <- lang_en;; *);;

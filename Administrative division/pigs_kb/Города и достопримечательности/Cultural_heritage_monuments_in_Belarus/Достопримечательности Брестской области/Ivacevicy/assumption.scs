@@ -1,0 +1,37 @@
+building_church_of_assumption_in_busiaz
+=> nrel_main_idtf:[Успенская церковь в Бусяжи](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Assumption in Busiaz](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/assumption.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в деревни Бесяжи. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_the_Assumption_in_Busia%C5%BE">https://commons.wikimedia.org/wiki/Category:Church_of_the_Assumption_in_Busia%C5%BE</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight: busjazh_1234858016;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Храм Успения Пресвятой Богородицы (1779)"]["building"="church"];(._;>;);];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_church_of_assumption_in_busiaz;;

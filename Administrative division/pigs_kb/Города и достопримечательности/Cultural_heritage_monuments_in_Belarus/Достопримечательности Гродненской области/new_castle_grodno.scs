@@ -1,0 +1,41 @@
+new_castle_grodno	
+=> nrel_main_idtf:[Новый замок в Гродно](* <- lang_ru;;*);
+=> nrel_main_idtf:[New Castle in Grodno](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/new_castle_grodno.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Новый королевский дворец, построенный в Гродно, напротив старого дворца (Старый замок), в 1734—1751 годах во время правления польского короля и великого князя литовского Августа III как летняя резиденция польских королей и великих князей литовских, по проекту Карла Фридриха Пёппельмана. Работы в замке осуществляли также Иоганн Фридрих Кнёбель, Йохим Даниэль Яух и до 1789 года Джузеппе де Сакко. Здесь проходили генеральные сеймы I Речи Посполитой.В этом здании во время последнего сейма Речи Посполитой в 1793 году было подписано соглашение о разделе Речи Посполитой с Россией и Пруссией, а в 1795 году польский король и великий князь литовский Станислав Август Понятовский поставил подпись под актом отречения. Король жил в нём до 1797 года.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1734;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)">https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:grodno_4401000000;;*);
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Новый замок"];(._;>;);];;
+
+rrel_cipher_412G000015 => nrel_main_idtf:[412Г000015'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000015 : new_castle_grodno;;
+	

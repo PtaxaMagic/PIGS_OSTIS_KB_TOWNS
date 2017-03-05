@@ -1,0 +1,29 @@
+Church_of_the_Assumption_in_Dziatlava
+=> nrel_main_idtf:[Костел Вознесения в Дятлово](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Assumption in Dziatlava](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_the_Assumption_in_Dziatlava.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_the_Assumption_in_Dziatlava?uselang=ru">https://commons.wikimedia.org/wiki/Category:Church_of_the_Assumption_in_Dziatlava?uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight:djatlovo_2236853031;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костел Успения Пресвятой Девы Марии"]["addr:city"="Дятлово"];(._;>;);];;
+
+rrel_cipher_412G000231 => nrel_main_idtf:[412Г000231'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000231 : Church_of_the_Assumption_in_Dziatlava;;

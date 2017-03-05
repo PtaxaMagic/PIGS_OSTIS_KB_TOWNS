@@ -1,0 +1,40 @@
+concept_situation -> 
+[*mogilev_7401000000=> nrel_code_soato: number_7401000000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*mogilev_7401000000 => nrel_population: ..time_value_population9357;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/280028528">http://www.opеnstrееtmap.org/nodе/280028528</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population9357
+=> nrel_main_idtf: [366839 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_366839;;
+-> rrel_thousands: number_366;;
+*);;
+concept_situation -> 
+[*concept_locality -> mogilev_7401000000;;*] 
+(* 
+=> nrel_start_time: time_point_1267;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> mogilev_7401000000;;*] 
+(* 
+=> nrel_start_time: time_point_1267;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/280028528">http://www.opеnstrееtmap.org/nodе/280028528</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*mogilev_7401000000 <= nrel_terrain_object_location: ..position4678;;*] 
+(* 
+=> nrel_start_time: time_point_1267;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/280028528">http://www.opеnstrееtmap.org/nodе/280028528</a>] (* => nrel_format: format_html;; *);;
+*);;
+mogilev_7401000000<- concept_mapped_point;;
+mogilev_7401000000<- concept_terrain_object;;
+mogilev_7401000000<- concept_mapped_object;;

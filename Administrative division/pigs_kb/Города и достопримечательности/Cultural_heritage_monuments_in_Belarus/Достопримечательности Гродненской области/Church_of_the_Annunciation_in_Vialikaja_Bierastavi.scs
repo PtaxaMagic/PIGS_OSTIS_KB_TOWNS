@@ -1,0 +1,41 @@
+Church_of_the_Annunciation_in_Vialikaja_Bierastavica
+=> nrel_main_idtf:[Церковь Посещения Пресвятой Девы Марии в Большой Берастовице](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of the Annunciation in Vialikaja Bierastavica](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Church_of_the_Annunciation_in_Vialikaja_Bierastavica.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [каталочейски храм в г. п. Большая Берастовица. Памятник архитектуры раннего барокко.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1620;
+
+=> nrel_source:[<a href = "https://be.wikipedia.org/w/index.php?title=%D0%9A%D0%B0%D1%81%D1%86%D1%91%D0%BB_%D0%90%D0%B4%D0%B2%D0%B5%D0%B4%D0%B7%D1%96%D0%BD_%D0%9D%D0%B0%D0%B9%D1%81%D0%B2%D1%8F%D1%86%D0%B5%D0%B9%D1%88%D0%B0%D0%B9_%D0%94%D0%B7%D0%B5%D0%B2%D1%8B_%D0%9C%D0%B0%D1%80%D1%8B%D1%96,_%D0%92%D1%8F%D0%BB%D1%96%D0%BA%D0%B0%D1%8F_%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D1%96%D1%86%D0%B0&uselang=ru">https://be.wikipedia.org/w/index.php?title=%D0%9A%D0%B0%D1%81%D1%86%D1%91%D0%BB_%D0%90%D0%B4%D0%B2%D0%B5%D0%B4%D0%B7%D1%96%D0%BD_%D0%9D%D0%B0%D0%B9%D1%81%D0%B2%D1%8F%D1%86%D0%B5%D0%B9%D1%88%D0%B0%D0%B9_%D0%94%D0%B7%D0%B5%D0%B2%D1%8B_%D0%9C%D0%B0%D1%80%D1%8B%D1%96,_%D0%92%D1%8F%D0%BB%D1%96%D0%BA%D0%B0%D1%8F_%D0%91%D0%B5%D1%80%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D1%96%D1%86%D0%B0&uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight:bolshaja_berestovitsa_4204551000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костёл Благовещенский (1741)"]["addr:street"="Зелёный переулок"];(._;>;);];;
+
+rrel_cipher_412G000078 => nrel_main_idtf:[412Г000078'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000078 : Church_of_the_Annunciation_in_Vialikaja_Bierastavica;;

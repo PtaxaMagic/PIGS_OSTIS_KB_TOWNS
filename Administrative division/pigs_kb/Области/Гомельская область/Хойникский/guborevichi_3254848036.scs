@@ -1,0 +1,19 @@
+concept_situation -> 
+[*guborevichi_3254848036=> nrel_code_soato: number_3254848036;;*] 
+(* 
+=> nrel_start_time: time_point_2011;;
+*);;
+concept_situation -> 
+[*concept_locality -> guborevichi_3254848036;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> guborevichi_3254848036;;*] 
+;;
+concept_situation -> 
+[*guborevichi_3254848036 <= nrel_terrain_object_location: ..position1596;;*] 
+;;
+guborevichi_3254848036<- concept_mapped_point;;
+guborevichi_3254848036<- concept_terrain_object;;
+guborevichi_3254848036<- concept_mapped_object;;

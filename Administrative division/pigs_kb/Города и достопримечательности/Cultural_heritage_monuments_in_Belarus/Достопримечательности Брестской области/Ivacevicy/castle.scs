@@ -1,0 +1,37 @@
+building_castle_in_kosava
+=> nrel_main_idtf:[Дворец Пусловских](* <- lang_ru;;*);
+=> nrel_main_idtf:[Kossava castel](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/castle.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Находится в Коссово. Памятник архитектуры в неоготическом стиле.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1767;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Kosava_Castle">https://commons.wikimedia.org/wiki/Category:Kosava_Castle</a>] (* => nrel_format: format_html;; *);
+
+
+=> nrel_place: ... (* <-rrel_sight: kossovo_1234510000;;*);
+<- concept_building;
+=> nrel_osm_query: [way["name"="Дворец Пусловских"];(._;>;);];;
+
+
+cultural_heritage_monuments_in_belarus_list -> building_castle_in_kosava;;

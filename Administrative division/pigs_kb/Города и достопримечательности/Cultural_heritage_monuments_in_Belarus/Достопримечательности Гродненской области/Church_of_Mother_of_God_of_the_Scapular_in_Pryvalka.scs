@@ -1,0 +1,16 @@
+Church_of_Mother_of_God_of_the_Scapular_in_Pryvalka
+=> nrel_main_idtf:[Костел Матери Божьей в Привалках](* <- lang_ru;;*);
+=> nrel_main_idtf:[Church of Mother of God of the Scapular in Pryvalka](*<- lang_en;;*);
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Church_of_Mother_of_God_of_the_Scapular_in_Pryva%C5%82ka?uselang=ru">https://commons.wikimedia.org/wiki/Category:Church_of_Mother_of_God_of_the_Scapular_in_Pryva%C5%82ka?uselang=ru</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: privalki_4220824106;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Костел Матери Божьей в Привалках"];];;
+
+rrel_cipher_413V000203 => nrel_main_idtf:[413В000203'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_413V000203 : Church_of_Mother_of_God_of_the_Scapular_in_Pryvalka;;

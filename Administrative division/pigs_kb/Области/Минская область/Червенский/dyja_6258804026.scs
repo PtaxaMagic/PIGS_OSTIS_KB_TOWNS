@@ -1,0 +1,19 @@
+concept_situation -> 
+[*dyja_6258804026=> nrel_code_soato: number_6258804026;;*] 
+(* 
+=> nrel_start_time: time_point_2011;;
+*);;
+concept_situation -> 
+[*concept_locality -> dyja_6258804026;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> dyja_6258804026;;*] 
+;;
+concept_situation -> 
+[*dyja_6258804026 <= nrel_terrain_object_location: ..position5286;;*] 
+;;
+dyja_6258804026<- concept_mapped_point;;
+dyja_6258804026<- concept_terrain_object;;
+dyja_6258804026<- concept_mapped_object;;

@@ -1,0 +1,40 @@
+Cathedral_of_St_Francis_Xavier
+=> nrel_main_idtf:[Кафедральный собор Святого Франциска Ксаверия](* <- lang_ru;;*);
+=> nrel_main_idtf:[Cathedral of St. Francis Xavier](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Cathedral_of_St_Francis_Xavier.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [неофициально называется также Фарный костёл — католический собор в городе Гродно, кафедральный собор Гродненского диоцеза. Один из трёх храмов Белоруссии, носящих почётный титул малая базилика.];;*);; 
+                         *);
+                
+
+=> nrel_start_time: time_point_1679;
+
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%D0%B0_%D0%9A%D1%81%D0%B0%D0%B2%D0%B5%D1%80%D0%B8%D1%8F_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)">https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%D0%B0_%D0%9A%D1%81%D0%B0%D0%B2%D0%B5%D1%80%D0%B8%D1%8F_(%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE)</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_place: ... (* <-rrel_sight: grodno_4401000000;;*);
+
+
+<- concept_building;
+=> nrel_osm_query: [node["name"="Кафедральный собор Святого Франциска Ксаверия"];(._;>;);];;
+
+rrel_cipher_412G000028 => nrel_main_idtf:[412Г000028'](*<-lang_ru;;*);
+			<- sc_node_role_relation;;
+
+cultural_heritage_monuments_in_belarus_list -> rrel_cipher_412G000028 : Cathedral_of_St_Francis_Xavier;;

@@ -1,0 +1,23 @@
+concept_situation -> 
+[*borovaja_buda_3225840006=> nrel_code_soato: number_3225840006;;*] 
+(* 
+=> nrel_start_time: time_point_2010;;
+*);;
+concept_situation -> 
+[*concept_locality -> borovaja_buda_3225840006;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_village -> borovaja_buda_3225840006;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243042351">http://www.opеnstrееtmap.org/nodе/243042351</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*borovaja_buda_3225840006 <= nrel_terrain_object_location: ..position2447;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243042351">http://www.opеnstrееtmap.org/nodе/243042351</a>] (* => nrel_format: format_html;; *);;
+*);;
+borovaja_buda_3225840006<- concept_mapped_point;;
+borovaja_buda_3225840006<- concept_terrain_object;;
+borovaja_buda_3225840006<- concept_mapped_object;;

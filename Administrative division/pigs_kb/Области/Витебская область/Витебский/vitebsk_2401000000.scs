@@ -1,0 +1,40 @@
+concept_situation -> 
+[*vitebsk_2401000000=> nrel_code_soato: number_2401000000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*vitebsk_2401000000 => nrel_population: ..time_value_population2895;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978887">http://www.opеnstrееtmap.org/nodе/242978887</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population2895
+=> nrel_main_idtf: [366299 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_366299;;
+-> rrel_thousands: number_366;;
+*);;
+concept_situation -> 
+[*concept_locality -> vitebsk_2401000000;;*] 
+(* 
+=> nrel_start_time: time_point_974;;
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_city -> vitebsk_2401000000;;*] 
+(* 
+=> nrel_start_time: time_point_974;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978887">http://www.opеnstrееtmap.org/nodе/242978887</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*vitebsk_2401000000 <= nrel_terrain_object_location: ..position1447;;*] 
+(* 
+=> nrel_start_time: time_point_974;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978887">http://www.opеnstrееtmap.org/nodе/242978887</a>] (* => nrel_format: format_html;; *);;
+*);;
+vitebsk_2401000000<- concept_mapped_point;;
+vitebsk_2401000000<- concept_terrain_object;;
+vitebsk_2401000000<- concept_mapped_object;;

@@ -1,0 +1,20 @@
+Water_well_at_Mir_Castle
+=> nrel_main_idtf:[Колодец в Мирском замке](* <- lang_ru;;*);
+=> nrel_main_idtf:[Water well at Mir Castle](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Water_well_at_Mir_Castle.jpg"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+                
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Water_well_at_Mir_Castle">https://commons.wikimedia.org/wiki/Category:Water_well_at_Mir_Castle</a>] (* => nrel_format: format_html;; *);
+
+=> nrel_osm_query: [node["name"="Колодец в Мирском замке"];];;

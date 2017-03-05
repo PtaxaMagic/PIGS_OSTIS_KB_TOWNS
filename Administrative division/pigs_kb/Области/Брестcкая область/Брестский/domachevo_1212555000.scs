@@ -1,0 +1,37 @@
+concept_situation -> 
+[*domachevo_1212555000=> nrel_code_soato: number_1212555000;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*domachevo_1212555000 => nrel_population: ..time_value_population14627;;*] 
+(* 
+=> nrel_start_time: time_point_2014;;
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978994">http://www.opеnstrееtmap.org/nodе/242978994</a>] (* => nrel_format: format_html;; *);;
+*);;
+..time_value_population14627
+=> nrel_main_idtf: [1250 чел.] (*<- lang_ru;;*);
+<- concept_quantity;
+<= nrel_value: ...
+(*
+-> number_1250;;
+-> rrel_thousands: number_1;;
+*);;
+concept_situation -> 
+[*concept_locality -> domachevo_1212555000;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_town -> domachevo_1212555000;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978994">http://www.opеnstrееtmap.org/nodе/242978994</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*domachevo_1212555000 <= nrel_terrain_object_location: ..position7313;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/242978994">http://www.opеnstrееtmap.org/nodе/242978994</a>] (* => nrel_format: format_html;; *);;
+*);;
+domachevo_1212555000<- concept_mapped_point;;
+domachevo_1212555000<- concept_terrain_object;;
+domachevo_1212555000<- concept_mapped_object;;

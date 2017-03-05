@@ -1,0 +1,23 @@
+concept_situation -> 
+[*malozhin_3203836036=> nrel_code_soato: number_3203836036;;*] 
+(* 
+=> nrel_start_time: time_point_2002;;
+*);;
+concept_situation -> 
+[*concept_locality -> malozhin_3203836036;;*] 
+(* 
+=> nrel_source:[<a href = "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8">https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D0%B8</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*concept_agrogorodok -> malozhin_3203836036;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243044150">http://www.opеnstrееtmap.org/nodе/243044150</a>] (* => nrel_format: format_html;; *);;
+*);;
+concept_situation -> 
+[*malozhin_3203836036 <= nrel_terrain_object_location: ..position4150;;*] 
+(* 
+=> nrel_source:[<a href = "http://www.opеnstrееtmap.org/nodе/243044150">http://www.opеnstrееtmap.org/nodе/243044150</a>] (* => nrel_format: format_html;; *);;
+*);;
+malozhin_3203836036<- concept_mapped_point;;
+malozhin_3203836036<- concept_terrain_object;;
+malozhin_3203836036<- concept_mapped_object;;

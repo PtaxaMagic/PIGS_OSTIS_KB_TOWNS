@@ -1,0 +1,33 @@
+Catholic_Church_of_the_Transfiguration_Novaja_Mysh
+=> nrel_main_idtf:[Храм преображения господня, Новая мышь](* <- lang_ru;;*);
+=> nrel_main_idtf:[Catholic Church of the Transfiguration, Novaja Myš](*<- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/catolic_church_novaya_mysh.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+ <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Костёл, д. Новая мышь, Барановичский р-он, Брестская область, Беларусь. Памятник архитектуры.];;*);; 
+                         *);
+               
+=> nrel_start_time: time_point_1900;
+
+=> nrel_source:[<a href = "https://commons.wikimedia.org/wiki/Category:Catholic_Church_of_the_Transfiguration,_Novaja_My%C5%A1"</a>] (* => nrel_format: format_html;; *);
+=> nrel_place: ... (* <-rrel_sight:novaja_mysh_1204860051;;*);
+<- concept_building;
+=> nrel_osm_query: [way["name"="Костёл Преображения Господня"]["addr:city"="Новая Мышь"]["addr:housenumber"="38"];(._;>;);];;
+
+cultural_heritage_monuments_in_belarus_list -> Catholic_Church_of_the_Transfiguration_Novaja_Mysh;;
