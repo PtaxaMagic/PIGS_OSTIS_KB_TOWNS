@@ -13,7 +13,7 @@ belarus_decomposition -> gomelskaja_oblast;;
 belarus_decomposition -> brestskaja_oblast;;
 belarus_decomposition -> mogiljovskaja_oblast;;
 
-belarus_region_list=> nrel_main_idtf: [Области Респулибки Беларусь](* <- lang_ru;; *);;
+belarus_region_list=> nrel_main_idtf: [Политико-административное деление РБ](* <- lang_ru;; *);;
 minskaja_oblast=> nrel_main_idtf: [Минская область](* <- lang_ru;; *);;
 vitebskaja_oblast=> nrel_main_idtf: [Витебская область](* <- lang_ru;; *);;
 grodnenskaja_oblast=> nrel_main_idtf: [Гродненская область](* <- lang_ru;; *);;
